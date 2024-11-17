@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* 브라우저 기본 설정 초기화 */
+@charset "utf-8";
+body {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    background-color: black;
+}
+div {
+    overflow: hidden;
+}
+
+div img {
+    display: block; /* 불필요한 여백 제거 */
+    max-width: 100%;
+    height: auto;
+
+}
